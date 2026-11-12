@@ -105,12 +105,12 @@ function can(u){const b=Math.sin(t/12)*3,cx=u.x+10,cy=u.y+17+b;ell(cx,G+2,11,3,'
 x.fillStyle=lg(cx-9,0,cx+9,0,['#0f3a80','#3a86e0','#0f3a80']);rr(cx-9,cy-14,18,29,3);x.fill();x.fillStyle=lg(cx-9,0,cx+9,0,['#8a94a0','#e8eef4','#8a94a0']);x.beginPath();x.ellipse(cx,cy-14,9,2.6,0,0,7);x.fill();x.beginPath();x.ellipse(cx,cy+15,9,2.2,0,0,7);x.fill();
 x.fillStyle='#e32934';x.beginPath();x.moveTo(cx-9,cy-3);x.quadraticCurveTo(cx,cy-9,cx+9,cy-3);x.lineTo(cx+9,cy+2);x.quadraticCurveTo(cx,cy-4,cx-9,cy+2);x.fill();x.fillStyle='#fff';x.beginPath();x.moveTo(cx-9,cy+2);x.quadraticCurveTo(cx,cy-4,cx+9,cy+2);x.lineTo(cx+9,cy+6);x.quadraticCurveTo(cx,cy,cx-9,cy+6);x.fill();
 x.fillStyle='rgba(255,255,255,.55)';x.fillRect(cx-6,cy-12,2.4,25);txt('PEPSI',cx,cy+12,5.5,'#fff');txt('♥ +1',cx,u.y-8+b,11,'#ff7a7a')}
-function taco(tx,ty){ell(tx+88,ty+2,98,6,'rgba(0,0,0,.35)');x.fillStyle=lg(0,ty-92,0,ty-14,['#fffaf0','#e0d8c4']);rr(tx,ty-92,128,78,8);x.fill();x.fillStyle='#2a9d4a';x.fillRect(tx,ty-30,128,8);x.fillStyle='#e63946';x.fillRect(tx,ty-22,128,6);
-x.fillStyle=lg(0,ty-70,0,ty-14,['#f4efe0','#cfc7b2']);x.beginPath();x.moveTo(tx+128,ty-70);x.lineTo(tx+154,ty-70);x.quadraticCurveTo(tx+170,ty-58,tx+172,ty-38);x.lineTo(tx+172,ty-14);x.lineTo(tx+128,ty-14);x.fill();x.fillStyle='#8cc8e8';x.beginPath();x.moveTo(tx+134,ty-64);x.lineTo(tx+153,ty-64);x.quadraticCurveTo(tx+163,ty-56,tx+165,ty-44);x.lineTo(tx+134,ty-44);x.fill();x.fillStyle='#ffe27a';x.fillRect(tx+166,ty-30,6,6);
-x.fillStyle='#2a2018';rr(tx+14,ty-80,74,36,4);x.fill();ell(tx+50,ty-58,8,9,'#d8a070');x.fillStyle='#fff';rr(tx+41,ty-74,18,9,3);x.fill();x.fillStyle='#14100c';x.fillRect(tx+46,ty-60,2,2);x.fillRect(tx+52,ty-60,2,2);x.fillStyle='#b8b8c0';x.fillRect(tx+10,ty-44,82,4);
-for(let k=0;k<7;k++){x.fillStyle=k%2?'#fff':'#e63946';x.beginPath();x.moveTo(tx+8+k*12,ty-88);x.lineTo(tx+20+k*12,ty-88);x.lineTo(tx+23+k*12,ty-78);x.lineTo(tx+5+k*12,ty-78);x.fill()}
-x.fillStyle='#1d1d22';rr(tx+2,ty-124,126,24,6);x.fill();x.strokeStyle='#2a9d4a';x.lineWidth=2;x.stroke();txt('LOS WERQUILLOS',tx+72,ty-107,13,'#ffd23a');x.fillStyle='#f2b705';x.beginPath();x.arc(tx+16,ty-104,8,Math.PI,0);x.fill();x.fillStyle='#2a9d4a';x.fillRect(tx+10,ty-109,12,3);txt('TACOS · BURRITOS',tx+64,ty-35,8,'#2a6a3a');
-[tx+34,tx+140].forEach(wx=>{ell(wx,ty-11,14,14,'#17171c');ell(wx,ty-11,7,7,'#b8b8c0');ell(wx,ty-11,2.5,2.5,'#555')});
+function taco(tx,ty){ell(tx+88,ty+2,98,6,'rgba(0,0,0,.4)');x.fillStyle=lg(0,ty-92,0,ty-14,['#34343c','#111115']);rr(tx,ty-92,128,78,8);x.fill();x.fillStyle='rgba(255,255,255,.08)';x.fillRect(tx+4,ty-90,120,3);x.fillStyle='#e63946';x.fillRect(tx,ty-30,128,5);x.fillStyle='#8a1620';x.fillRect(tx,ty-24,128,4);
+x.fillStyle=lg(0,ty-70,0,ty-14,['#2c2c33','#0e0e12']);x.beginPath();x.moveTo(tx+128,ty-70);x.lineTo(tx+154,ty-70);x.quadraticCurveTo(tx+170,ty-58,tx+172,ty-38);x.lineTo(tx+172,ty-14);x.lineTo(tx+128,ty-14);x.fill();x.fillStyle='#6a8aa0';x.beginPath();x.moveTo(tx+134,ty-64);x.lineTo(tx+153,ty-64);x.quadraticCurveTo(tx+163,ty-56,tx+165,ty-44);x.lineTo(tx+134,ty-44);x.fill();x.fillStyle='#ffe27a';x.fillRect(tx+166,ty-30,6,6);
+x.fillStyle='#2a1a10';rr(tx+14,ty-80,74,36,4);x.fill();ell(tx+50,ty-58,8,9,'#d8a070');x.fillStyle='#fff';rr(tx+41,ty-74,18,9,3);x.fill();x.fillStyle='#14100c';x.fillRect(tx+46,ty-60,2,2);x.fillRect(tx+52,ty-60,2,2);x.fillStyle='#b8b8c0';x.fillRect(tx+10,ty-44,82,4);
+for(let k=0;k<7;k++){x.fillStyle=k%2?'#2a2a30':'#e63946';x.beginPath();x.moveTo(tx+8+k*12,ty-88);x.lineTo(tx+20+k*12,ty-88);x.lineTo(tx+23+k*12,ty-78);x.lineTo(tx+5+k*12,ty-78);x.fill()}
+x.fillStyle='#0a0a0d';rr(tx+2,ty-124,126,24,6);x.fill();x.strokeStyle='#e63946';x.lineWidth=2;x.stroke();txt('LOS HUERQUILLOS',tx+66,ty-107,13,'#ff3b3b');txt('TACOS · BURRITOS',tx+64,ty-35,8,'#ff6a6a');
+[tx+34,tx+140].forEach(wx=>{ell(wx,ty-11,14,14,'#0a0a0c');ell(wx,ty-11,7,7,'#9a9aa2');ell(wx,ty-11,2.5,2.5,'#444')});
 for(let k=0;k<3;k++){const st=((t/2+k*14)%42);x.fillStyle='rgba(255,255,255,'+(.4-st/110)+')';x.beginPath();x.arc(tx+100+Math.sin(st/6+k)*4,ty-130-st,5+st/9,0,7);x.fill()}}
 function bld(bx,i){const nm=B[i][0],h=150+(i*37)%50,top=G-h,c=nm=='Pepsi'?'#2457a8':COL[i%COL.length],bw=BW,dx=bx+bw/2,ac=nm=='Pepsi'?'#e32934':i%2?'#d33':'#ff6a13';ell(dx,G+3,bw/2+14,6,'rgba(0,0,0,.25)');
 x.fillStyle=lg(bx,0,bx+bw,0,[sh(c,30),c,sh(c,-40)]);x.fillRect(bx,top,bw,h);if(i%2){x.fillStyle=bp0;x.fillRect(bx,top,bw,h)}else{x.fillStyle='rgba(255,255,255,.07)';for(let k=0;k<40;k++)x.fillRect(bx+nz(k+i)*bw,top+nz(k+i*3)*h,2,2)}
@@ -173,11 +173,10 @@ B.forEach((b,i)=>{const bx=BX0+i*BS;if(bx-cam<W+20&&bx+BW-cam>-20)bld(bx,i)});sc
 const sw=lg(0,G,0,G+12,['#dcdad2','#b9b7b0']),as=lg(0,G+13,0,G+120,['#4a4a50','#38383d','#2a2a2e']);
 for(let sx=Math.floor(cam/40)*40;sx<cam+W+40;sx+=40){x.fillStyle=sw;x.fillRect(sx,G,40,12);x.fillStyle='rgba(0,0,0,.22)';x.fillRect(sx,G,1,12);x.fillStyle='#8f8d86';x.fillRect(sx,G+10,40,3);x.fillStyle=as;x.fillRect(sx,G+13,40,400);if(nz(sx/40)>.6){ell(sx+nz(sx)*30,G+20+nz(sx+1)*30,2.5,1,'rgba(255,255,255,.12)')}}
 for(let k=Math.floor(cam/100);k<(cam+W)/100+1;k++){x.fillStyle='#e8c81a';x.fillRect(k*100,G+52,50,4)}
-taco(BX0+8*BS+BW-10,G+40);
 for(const b of S)block(b);
 for(const c of C)if(!c.got)coin(c.x+12,c.y+12+Math.sin(t/12+c.x)*3);
 for(const p of pops)coin(p.x+12,p.y-p.t*2);
-for(const u of U)if(!u.got)can(u);for(const e of E)weed(e);abel();if(state=='enter')x.globalAlpha=Math.max(0,1-Math.max(0,ent-20)/32);player();x.globalAlpha=1;
+for(const u of U)if(!u.got)can(u);for(const e of E)weed(e);abel();if(state=='enter')x.globalAlpha=Math.max(0,1-Math.max(0,ent-20)/32);player();x.globalAlpha=1;taco(BX0+8*BS+BW-10,G+40);
 for(const p of parts){p.x+=p.vx;p.y+=p.vy;p.vy+=.12;p.l--;x.globalAlpha=Math.max(0,p.l/p.m);x.fillStyle=p.c;x.beginPath();x.arc(p.x,p.y,1.2+2*p.l/p.m,0,7);x.fill()}x.globalAlpha=1;fl.forEach(f=>{f.t++;x.globalAlpha=Math.max(0,1-f.t/70);txt('+1 Life!',f.x,f.y-f.t*1.2,14,'#ff7a7a')});x.globalAlpha=1;fl=fl.filter(f=>f.t<70);for(let i=parts.length-1;i>=0;i--)if(parts[i].l<=0)parts.splice(i,1);
 x.restore();x.restore();
 const cur=B.findIndex((b,i)=>P.x<BX0+i*BS+BW+50),nm=P.x>SX-40?'Worland High School — 801 S 17th St':cur>=0?B[cur][0]+' — '+B[cur][1]+' Big Horn Ave':'',hh=W<600?50:30;
